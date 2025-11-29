@@ -7,7 +7,7 @@ import java.util.List;
 public record Events(List<Event> list) {
 
     public record Event(String title, String description, String date, String link) {
-        public LocalDate parseDate() {
+        public LocalDate parsedDate() {
             return LocalDate.parse(date);
         }
     }
