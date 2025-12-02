@@ -1,7 +1,7 @@
 ---
 title: "The First Roq!"
 description: This is my first article ever made with Quarkus Roq
-image: blog.avif
+image: cantata2025.avif
 tags: blogging
 author: roqqy
 cool: this is cool :)
