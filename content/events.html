@@ -6,7 +6,7 @@ layout: :theme/page
 
 <h1>Doces Eventos</h1>
 
-<p>Nossos Doces Eventos serão publicados aqui. Para mais informações, clique no links dos eventos! 🤩</p>
+<p>Nossos Doces Eventos serão publicados aqui. Para mais informações, clique nos links dos eventos! 🤩</p>
 
 {#for event in cdi:events.list}
 <article class="event">
@@ -14,7 +14,7 @@ layout: :theme/page
         <span class="post-date"><i class="fa fa-calendar"></i>{event.parsedDate.format('dd, MMMM yyyy')}</span>
         <h2 class="event-title">{event.title}</h2>
         <p>{event.description}</p>
-        {#if event.link}<a href="{site.url.resolve(event.link)}">More info...</a>{/if}
+        {#if event.link}<a href="{site.url.resolve(event.link)}">Saiba mais...</a>{/if}
     </div>
 </article>
 {/for}
