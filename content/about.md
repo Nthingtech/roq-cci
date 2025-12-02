@@ -19,7 +19,7 @@ Que respeita as cem linguagens da criança!
   {#for id in cdi:authors.fields}
     {#let author=cdi:authors.get(id)}
     <!-- the author-card tag is defined in the default Roq theme -->
-    {#author-card name=author.name avatar=author.avatar nickname=author.nickname profile=author.profile /}
+    {#author-card name=author.name avatar=author.avatar nickname=author.nickname profile=author.profile bio=author.bio /}
   {/for}
 </div>
 

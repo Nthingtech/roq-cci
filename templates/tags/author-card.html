@@ -1,0 +1,10 @@
+<div class="author-card">
+    <div class="avatar">
+        <img src="{cdi:site.image(avatar)}" alt="{name}'s Avatar"/>
+    </div>
+    <div class="details">
+        <h2 class="name">{name}</h2>
+        <p class="bio">{bio}</p>
+        {#if nested-content??}{nested-content}{/if}<a href="{profile}" target="_blank" class="login">@{nickname}</a>
+    </div>
+</div>
