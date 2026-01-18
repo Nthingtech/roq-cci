@@ -7,12 +7,6 @@ tags: festa
 author: sara
 ---
 
-Estamos encerrando as vivências do ano de 2025 e para comemoramos este ano incrível, faremos um almoço especial com churrasco para nossas doces crianças.
+Na Doces Crianças sempre encerramos as vivências do ano com um evento especial para nossas crianças. Para comemoramos este ano de 2025 incrível, faremos um almoço especial com churrasco para nossas doces crianças.
 
-Nossa festinha vai ter muita diversão e alegria! Pedimos para que as crianças venham com roupa de piscina e chinelo....Ah! Não esqueçam de enviar também o protetor solar 🌞😎
-
-***Data: 05/12/205***
-
-***Horário: 11h ãs 15h***
-
-_Valor: R$ 25,00_
+***Nossa festinha vai ter muita diversão e alegria!🌞😎***
