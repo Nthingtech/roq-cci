@@ -1,3 +1,8 @@
+h1
+{
+    color: green;
+}
+
 .giscus {
   padding: 10px;
 }
@@ -46,6 +51,18 @@
 .about .cover-author-image {
   height: 150px;
   width: 150px;
+  background-color: white !important;
+  border-radius: 50%;
+  overflow: hidden;
+
+  img {
+      transition: transform 0.3s ease;
+      display: block;
+
+      &:hover {
+        transform: scale(0.9) !important;
+      }
+  }
 
   @media only screen and (max-width : 768px) {
     img {
