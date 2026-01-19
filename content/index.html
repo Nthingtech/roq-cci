@@ -25,11 +25,12 @@ layout: :theme/index
     {
         "@context": "https://schema.org",
         "@type": "EducationalOrganization",
-        "name": "Doces Crianças",
-        "description": "Escola infantil especializada na primeira infância",
+        "name": "Doces Crianças - Escola Infantil",
+        "alternateName": "CCI - Centro de Convivência Infantil",
+        "description": "Escola infantil especializada na primeira infância no Jardim Penha, São Paulo",
         "url": "https://docescriancas.com",
         "logo": "https://docescriancas.com/images/logomelhorado.avif",
-        "image": "https://docescriancas.com/images/logomelhorado.avif",
+        "image": "https://docescriancas.com/images/og-image.jpg",
         "telephone": "+55-11-2248-2649",
         "address": {
             "@type": "PostalAddress",
@@ -37,11 +38,27 @@ layout: :theme/index
             "addressLocality": "São Paulo",
             "addressRegion": "SP",
             "postalCode": "02278-000",
-            "addressCountry": "BR"
+            "addressCountry": "BR",
+            "neighborhood": "Vila Nilo"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "-23.4613199",
+            "longitude": "-46.5808938"
+        },
+        "areaServed": {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": "-23.4613199",
+                "longitude": "-46.5808938"
+            },
+            "geoRadius": "5000"
         },
         "sameAs": [
             "https://www.facebook.com/docescriancas",
-            "https://www.instagram.com/escoladocescriancas"
+            "https://www.instagram.com/escoladocescriancas",
+            "https://wa.me/551122482649"
         ],
         "openingHoursSpecification": [
             {
@@ -57,6 +74,36 @@ layout: :theme/index
                 "closes": "19:00"
             }
         ],
-        "priceRange": "$$"
+        "priceRange": "$$",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Programas Educacionais",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Course",
+                        "name": "Berçário",
+                        "description": "Para crianças de 4 meses a 1 ano"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Course",
+                        "name": "Maternal",
+                        "description": "Para crianças de 1 a 3 anos"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Course",
+                        "name": "Jardim",
+                        "description": "Para crianças de 3 a 5 anos"
+                    }
+                }
+            ]
+        }
     }
 </script>
