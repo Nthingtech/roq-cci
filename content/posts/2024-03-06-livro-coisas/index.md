@@ -4,6 +4,7 @@ layout: :theme/post
 description: "Livro: Coisas pra fazer antes de crescer"
 image: coisasprafazer.avif
 tags: livro
+locale: pt-BR
 author: sara
 ---
 

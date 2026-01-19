@@ -4,6 +4,7 @@ layout: :theme/post
 description: "\"A luz da presença: um propósito a brilhar na infância.\""
 image: cantata2025.avif
 tags: cantata
+locale: pt-BR
 author: sara
 ---
 O dia da nossa Cantata está chegando. E as crianças têm preparado tudo com muito amor e carinho.
