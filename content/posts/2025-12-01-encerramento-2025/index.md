@@ -4,6 +4,7 @@ layout: :theme/post
 description: "Um almoço especial com churrasco para nossas crianças"
 image: encerramento2025.avif
 tags: festa
+locale: pt-BR
 author: sara
 ---
 
