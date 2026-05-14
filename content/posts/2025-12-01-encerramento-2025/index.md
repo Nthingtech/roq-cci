@@ -1,6 +1,6 @@
 ---
 title: "Festa de Encerramento 2025"
-layout: :theme/post
+layout: post
 description: "Um almoço especial com churrasco para nossas crianças"
 image: encerramento2025.avif
 tags: festa

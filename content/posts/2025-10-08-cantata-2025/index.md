@@ -1,6 +1,6 @@
 ---
 title: "Vem aí a Cantata 2025!"
-layout: :theme/post
+layout: post
 description: "\"A luz da presença: um propósito a brilhar na infância.\""
 image: cantata2025.avif
 tags: cantata

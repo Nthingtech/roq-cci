@@ -1,6 +1,6 @@
 ---
 title: "Doces Dicas"
-layout: :theme/post
+layout: post
 description: "Livro: Coisas pra fazer antes de crescer"
 image: coisasprafazer.avif
 tags: livro

@@ -2,7 +2,7 @@
 title: Sobre
 description: |
   Doces Crianças: Escola infantil em São Paulo com 30 anos de história. Ensino que acolhe e respeita as cem linguagens da criança e o desenvolvimento socioemocional.
-layout: :theme/page
+layout: page
 ---
 
 # Sobre a Doces Crianças
@@ -22,4 +22,3 @@ Que respeita as cem linguagens da criança!
     {#author-card name=author.name avatar=author.avatar nickname=author.nickname profile=author.profile bio=author.bio /}
   {/for}
 </div>
-
