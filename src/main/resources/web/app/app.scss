@@ -144,3 +144,14 @@ h1
     }
   }
 }
+/* Política de Privacidade no rodapé */
+.copyright a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+
+  &:hover {
+    opacity: 1;
+    text-decoration: underline;
+  }
+}
