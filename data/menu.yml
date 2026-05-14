@@ -8,6 +8,9 @@ nav:
   - title: "Sobre"
     path: "/about"
     icon: "fa-solid fa-thumbs-up"
+  - title: "Acessar Sistema"
+    path: "https://app.docescriancas.com"
+    icon: "fa-solid fa-arrow-up-right-from-square"
 
 sites:
   - title: "Papelaria Ruby"
