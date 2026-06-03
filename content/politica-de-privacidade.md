@@ -55,7 +55,7 @@ Você tem direito a:
 
 Para dúvidas, solicitações ou exercício dos seus direitos, entre em contato:
 
-**E-mail:** agittvacademia@gmail.com
+**E-mail:** store_nthing@proton.me
 
 ## 8. Alterações nesta política
 
