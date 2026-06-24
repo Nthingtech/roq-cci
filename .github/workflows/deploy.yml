@@ -15,6 +15,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}   # Used to automatically get the GitHub Pages url
           site-url: https://docescriancas.com
+          java-version: 25
   deploy:
     environment:
       name: github-pages
