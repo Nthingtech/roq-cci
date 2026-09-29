@@ -16,9 +16,9 @@ nav:
     icon: "fa-solid fa-arrow-up-right-from-square"
 
 sites:
-  - title: "Parceiro Exemplo A"
+  - title: "Loja Exemplo"
     path: "https://exemplo.com"
     icon: "fa-regular fa-pen-to-square"
-  - title: "Parceiro Exemplo B"
+  - title: "Estúdio Exemplo"
     path: "https://exemplo.org"
     icon: "fa-regular fa-pen-to-square"

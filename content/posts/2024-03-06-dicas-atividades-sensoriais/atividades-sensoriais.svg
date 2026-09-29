@@ -1,8 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="t">
   <title id="t">Ilustração placeholder: atividades sensoriais</title>
   <rect width="640" height="360" fill="#edf0ff"/>
-  <circle cx="320" cy="160" r="90" fill="#acc7ff"/>
-  <path d="M260 230c20-30 100-30 120 0" stroke="#005cbd" stroke-width="10" stroke-linecap="round" fill="none"/>
-  <circle cx="285" cy="150" r="12" fill="#0050a7"/>
-  <circle cx="355" cy="150" r="12" fill="#0050a7"/>
+  <g fill="none" stroke="#005cbd" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M230 120 v-30 a30 30 0 0 1 60 0 v30" />
+    <path d="M290 120 h60 v100 a30 30 0 0 1 -60 0 z" />
+  </g>
+  <circle cx="410" cy="150" r="14" fill="#ffc93c"/>
+  <circle cx="440" cy="200" r="10" fill="#7eabff"/>
+  <circle cx="400" cy="230" r="8" fill="#0050a7"/>
+  <circle cx="200" cy="200" r="12" fill="#acc7ff"/>
 </svg>
