@@ -1,0 +1,28 @@
+---
+title: Conheça o Sistema de Gestão
+description: Veja como funciona o sistema de gestão escolar usado no dia a dia da Doces Crianças.
+layout: page
+---
+
+<h1>O Sistema por trás da Doces Crianças</h1>
+
+<p>
+    Esta é uma demonstração visual do sistema de gestão escolar que usamos no dia a dia —
+    pensado para simplificar a comunicação, a agenda e a administração da escola.
+    As telas abaixo são ilustrativas.
+</p>
+
+<div class="feature-grid">
+    {#for feature in cdi:features.list}
+    <div class="feature-card">
+        <div class="feature-icon"><i class="{feature.icon}"></i></div>
+        <div class="feature-title">{feature.title}</div>
+        <p class="feature-description">{feature.description}</p>
+    </div>
+    {/for}
+</div>
+
+<p>
+    Quer ver isso funcionando na prática?
+    <a href="https://wa.me/{site.data.social-whatsapp}">Fale com a gente</a>.
+</p>

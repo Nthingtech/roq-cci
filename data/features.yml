@@ -1,0 +1,23 @@
+- title: "Mensagens"
+  icon: "fa-regular fa-message"
+  description: "Comunicação direta entre a escola e as famílias, com histórico organizado por aluno e turma."
+
+- title: "Agenda"
+  icon: "fa-regular fa-calendar-days"
+  description: "Registro diário de rotina, alimentação, sono e observações — tudo acessível pelos responsáveis em tempo real."
+
+- title: "Materiais e Estoque"
+  icon: "fa-solid fa-boxes-stacked"
+  description: "Listas de materiais, controle de estoque da escola e dos alunos, e gestão de fornecedores."
+
+- title: "Docs IA"
+  icon: "fa-solid fa-file-lines"
+  description: "Organização inteligente de documentos e relatórios com apoio de inteligência artificial."
+
+- title: "Financeiro"
+  icon: "fa-solid fa-sack-dollar"
+  description: "Planos de mensalidade, faturas, despesas e relatório anual em um só lugar."
+
+- title: "Pessoas"
+  icon: "fa-solid fa-people-group"
+  description: "Cadastro de alunos, responsáveis, famílias, professores, funcionários e turmas."

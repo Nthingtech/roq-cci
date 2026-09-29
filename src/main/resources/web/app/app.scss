@@ -1,6 +1,35 @@
-h1
-{
-    color: green;
+:root {
+  --color-primary-50: #f9f9ff;
+  --color-primary-100: #edf0ff;
+  --color-primary-200: #d7e2ff;
+  --color-primary-300: #acc7ff;
+  --color-primary-400: #7eabff;
+  --color-primary-500: #3275d9;
+  --color-primary-600: #005cbd;
+  --color-primary-700: #0050a7;
+  --color-primary-800: #004591;
+  --color-primary-900: #002f67;
+  --color-primary-950: #001a40;
+}
+
+/* Menu lateral com a paleta azul institucional */
+.sidebar.main {
+  .menu-title {
+    color: var(--color-primary-700);
+
+    &:before,
+    &:after {
+      background-color: var(--color-primary-200);
+    }
+  }
+
+  .menu ul li a {
+    color: #44474e;
+
+    &:hover {
+      color: var(--color-primary-600);
+    }
+  }
 }
 
 .giscus {
@@ -82,7 +111,7 @@ h1
 
   &:hover {
     transform: translateY(-4px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 92, 189, 0.15);
   }
 
   .event-content {
@@ -103,7 +132,7 @@ h1
     .event-title {
       font-size: 1.5rem;
       font-weight: 700;
-      color: #000;
+      color: var(--color-primary-800);
       margin: 0;
       transition: color 0.2s ease;
 
@@ -144,6 +173,45 @@ h1
     }
   }
 }
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.feature-card {
+  background: #fff;
+  border: 1px solid #e1e2eb;
+  border-radius: 12px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  padding: 20px;
+
+  .feature-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary-50);
+    color: var(--color-primary-600);
+    margin-bottom: 12px;
+  }
+
+  .feature-title {
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 6px;
+  }
+
+  .feature-description {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+}
+
 /* Política de Privacidade no rodapé */
 .copyright a {
   color: inherit;
@@ -152,6 +220,7 @@ h1
 
   &:hover {
     opacity: 1;
+    color: var(--color-primary-600);
     text-decoration: underline;
   }
 }
