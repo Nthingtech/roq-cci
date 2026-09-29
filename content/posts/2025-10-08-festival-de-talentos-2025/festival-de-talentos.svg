@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="t">
+  <title id="t">Ilustração placeholder: festival de talentos</title>
+  <rect width="640" height="360" fill="#001a40"/>
+  <polygon points="320,90 345,150 410,150 358,188 378,250 320,213 262,250 282,188 230,150 295,150"
+           fill="#ffc93c"/>
+  <text x="320" y="320" text-anchor="middle" font-family="Roboto, Helvetica, Arial, sans-serif"
+        font-weight="700" font-size="28" fill="#ffffff">Festival de Talentos</text>
+</svg>

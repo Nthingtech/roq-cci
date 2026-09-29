@@ -1,11 +1,11 @@
 ---
 title: Sobre
 description: |
-  Doces Crianças: Escola infantil em São Paulo com 30 anos de história. Ensino que acolhe e respeita as cem linguagens da criança e o desenvolvimento socioemocional.
+  Udq School: Escola infantil (exemplo) em São Paulo com 30 anos de história fictícia. Ensino que acolhe e respeita as cem linguagens da criança e o desenvolvimento socioemocional.
 layout: page
 ---
 
-# Sobre a Doces Crianças
+# Sobre a Udq School
 
 Escola Especializada na primeira infância.
 Que respeita as cem linguagens da criança!

@@ -1,9 +1,10 @@
 
-sara:
-  name: "Sara Regina"
-  job: Mantenedora
-  nickname: Tia_Sara
-  profile: "https://www.instagram.com/sara_regina74/"
-  avatar: "sara.png"
+maria:
+  name: "Maria Exemplo"
+  job: "Coordenadora Pedagógica (perfil fictício)"
+  nickname: Tia_Maria
+  profile: "#"
+  avatar: "avatar-exemplo.svg"
   bio: |
-    🍭🍬Apaixonada pela infância e Pós graduada em educação sócio emocional❣️
+    🍭🍬Perfil fictício criado para fins de demonstração. Apaixonada pela
+    educação infantil e pela metodologia Reggio Emilia❣️

@@ -16,9 +16,9 @@ nav:
     icon: "fa-solid fa-arrow-up-right-from-square"
 
 sites:
-  - title: "Papelaria Ruby"
-    path: "https://papelariaruby.carrd.co/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGntoMQ3MaDMcYasNni1J34uZLzGt5CSMPSQNtrnsrPsWxBmyYBZeYwmAgt4sc_aem_g4ENWz8zAQMWHQ4Gg9DJOQ"
+  - title: "Parceiro Exemplo A"
+    path: "https://exemplo.com"
     icon: "fa-regular fa-pen-to-square"
-  - title: "Lumisfera"
-    path: "https://lumisfera.com.br/"
+  - title: "Parceiro Exemplo B"
+    path: "https://exemplo.org"
     icon: "fa-regular fa-pen-to-square"

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="t">
+  <title id="t">Ilustração placeholder: festa de encerramento</title>
+  <rect width="640" height="360" fill="#edf0ff"/>
+  <path d="M180 260 L460 260 L430 140 L210 140 Z" fill="#7eabff"/>
+  <circle cx="220" cy="100" r="10" fill="#005cbd"/>
+  <circle cx="320" cy="80" r="10" fill="#0050a7"/>
+  <circle cx="420" cy="100" r="10" fill="#005cbd"/>
+  <text x="320" y="320" text-anchor="middle" font-family="Roboto, Helvetica, Arial, sans-serif"
+        font-weight="700" font-size="26" fill="#001a40">Festa de Encerramento</text>
+</svg>

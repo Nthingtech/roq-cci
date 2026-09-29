@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="320" viewBox="0 0 400 320" role="img" aria-labelledby="home-illustration-title">
+  <title id="home-illustration-title">Emblema da Udq School: escudo azul com boné de formatura</title>
+
+  <defs>
+    <linearGradient id="shieldGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#15ACE1"/>
+      <stop offset="1" stop-color="#0050a7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="320" rx="28" fill="#11173a"/>
+
+  <g transform="translate(100,36)" fill="none" stroke="url(#shieldGrad)" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M100,8 L178,44 L178,118
+             C178,170 138,206 100,226
+             C62,206 22,170 22,118
+             L22,58 L48,58 L48,32 Z"/>
+  </g>
+
+  <g transform="translate(100,36)">
+    <polygon points="100,78 142,96 100,114 58,96" fill="#eaf6ff"/>
+    <ellipse cx="100" cy="108" rx="20" ry="9" fill="#eaf6ff"/>
+    <line x1="132" y1="96" x2="137" y2="122" stroke="#ffc93c" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="137" cy="126" r="4.5" fill="#ffc93c"/>
+  </g>
+
+  <text x="200" y="205" text-anchor="middle" font-family="Roboto, Helvetica, Arial, sans-serif" font-weight="700" font-size="26" letter-spacing="1" fill="#ffffff">UDQ SCHOOL</text>
+</svg>

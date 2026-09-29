@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="t">
+  <title id="t">Ilustração placeholder: atividades sensoriais</title>
+  <rect width="640" height="360" fill="#edf0ff"/>
+  <circle cx="320" cy="160" r="90" fill="#acc7ff"/>
+  <path d="M260 230c20-30 100-30 120 0" stroke="#005cbd" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <circle cx="285" cy="150" r="12" fill="#0050a7"/>
+  <circle cx="355" cy="150" r="12" fill="#0050a7"/>
+</svg>

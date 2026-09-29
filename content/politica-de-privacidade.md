@@ -1,6 +1,6 @@
 ---
 title: Política de Privacidade
-description: Política de Privacidade do Doce Assistente
+description: Política de Privacidade do Assistente Udq
 layout: page
 ---
 
@@ -10,7 +10,7 @@ layout: page
 
 ## 1. Sobre este documento
 
-Esta Política de Privacidade descreve como o **Doce Assistente** coleta, usa e protege os dados pessoais dos usuários do sistema de gestão escolar disponível em [app.docescriancas.com](https://app.docescriancas.com).
+Esta Política de Privacidade descreve como o **Assistente Udq** coleta, usa e protege os dados pessoais dos usuários do sistema de gestão escolar disponível em [app.docescriancas.com](https://app.docescriancas.com).
 
 ## 2. Quais dados coletamos
 
