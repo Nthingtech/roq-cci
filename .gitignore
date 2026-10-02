@@ -51,3 +51,7 @@ yarn-error.log*
 /.quarkus/cli/plugins/
 # TLS Certificates
 .certs/
+
+# Instruções de agente geradas pelo quarkus-agent MCP
+/AGENTS.md
+/CLAUDE.md
