@@ -1,12 +1,67 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="t">
-  <title id="t">Ilustração placeholder: atividades sensoriais</title>
+  <title id="t">Ilustração: pintura com as mãos, potes de tinta e massinha</title>
+  <defs>
+    <g id="hand">
+      <ellipse cx="0" cy="10" rx="28" ry="30"/>
+      <rect x="-25" y="-56" width="12" height="46" rx="6"/>
+      <rect x="-8" y="-64" width="13" height="52" rx="6.5"/>
+      <rect x="9" y="-58" width="12" height="46" rx="6"/>
+      <rect x="22" y="-40" width="10" height="36" rx="5"/>
+      <rect x="-6" y="-40" width="12" height="38" rx="6" transform="translate(-26,14) rotate(-58)"/>
+    </g>
+  </defs>
+
   <rect width="640" height="360" fill="#edf0ff"/>
-  <g fill="none" stroke="#005cbd" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M230 120 v-30 a30 30 0 0 1 60 0 v30" />
-    <path d="M290 120 h60 v100 a30 30 0 0 1 -60 0 z" />
+
+  <!-- folha de papel com marcas de mãos -->
+  <g transform="translate(250,160) rotate(-6)">
+    <rect x="-130" y="-95" width="260" height="190" rx="10" fill="#ffffff" stroke="#acc7ff" stroke-width="3"/>
+    <use href="#hand" fill="#ffc93c" transform="translate(-55,20) rotate(-14) scale(0.95)"/>
+    <use href="#hand" fill="#7eabff" transform="translate(55,10) rotate(12)"/>
+    <circle cx="-95" cy="-60" r="6" fill="#005cbd" opacity="0.5"/>
+    <circle cx="100" cy="65" r="5" fill="#ffc93c" opacity="0.7"/>
+    <circle cx="5" cy="-70" r="4" fill="#7eabff" opacity="0.7"/>
   </g>
-  <circle cx="410" cy="150" r="14" fill="#ffc93c"/>
-  <circle cx="440" cy="200" r="10" fill="#7eabff"/>
-  <circle cx="400" cy="230" r="8" fill="#0050a7"/>
-  <circle cx="200" cy="200" r="12" fill="#acc7ff"/>
+
+  <!-- folha (jardim sensorial) -->
+  <g transform="translate(96,288) rotate(-30)">
+    <path d="M0,0 C10,-34 44,-44 62,-40 C60,-20 40,6 0,0 Z" fill="#4caf7a"/>
+    <path d="M0,0 C18,-12 36,-24 58,-38" fill="none" stroke="#2e8a5a" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- potes de tinta -->
+  <g stroke="#005cbd" stroke-width="3">
+    <g transform="translate(430,120)">
+      <rect x="0" y="0" width="46" height="56" rx="8" fill="#ffffff"/>
+      <path d="M1.5,24 H44.5 V48 a6.5,6.5 0 0 1 -6.5,6.5 H8 a6.5,6.5 0 0 1 -6.5,-6.5 Z" fill="#ffc93c" stroke="none"/>
+      <rect x="-4" y="-8" width="54" height="12" rx="5" fill="#005cbd"/>
+    </g>
+    <g transform="translate(490,120)">
+      <rect x="0" y="0" width="46" height="56" rx="8" fill="#ffffff"/>
+      <path d="M1.5,18 H44.5 V48 a6.5,6.5 0 0 1 -6.5,6.5 H8 a6.5,6.5 0 0 1 -6.5,-6.5 Z" fill="#005cbd" stroke="none"/>
+      <rect x="-4" y="-8" width="54" height="12" rx="5" fill="#005cbd"/>
+    </g>
+    <g transform="translate(550,120)">
+      <rect x="0" y="0" width="46" height="56" rx="8" fill="#ffffff"/>
+      <path d="M1.5,28 H44.5 V48 a6.5,6.5 0 0 1 -6.5,6.5 H8 a6.5,6.5 0 0 1 -6.5,-6.5 Z" fill="#7eabff" stroke="none"/>
+      <rect x="-4" y="-8" width="54" height="12" rx="5" fill="#005cbd"/>
+    </g>
+  </g>
+
+  <!-- pincel -->
+  <g transform="translate(468,98) rotate(35)">
+    <rect x="-4" y="-70" width="8" height="58" rx="4" fill="#0050a7"/>
+    <rect x="-5" y="-14" width="10" height="10" fill="#acc7ff"/>
+    <path d="M-5,-4 H5 C6,8 2,16 0,20 C-2,16 -6,8 -5,-4 Z" fill="#ffc93c"/>
+  </g>
+
+  <!-- massinha -->
+  <ellipse cx="462" cy="250" rx="30" ry="18" fill="#ffc93c"/>
+  <ellipse cx="520" cy="258" rx="24" ry="14" fill="#7eabff"/>
+  <ellipse cx="568" cy="248" rx="20" ry="13" fill="#005cbd"/>
+  <ellipse cx="455" cy="243" rx="10" ry="4" fill="#ffffff" opacity="0.45"/>
+  <ellipse cx="514" cy="252" rx="8" ry="3" fill="#ffffff" opacity="0.45"/>
+
+  <text x="320" y="328" text-anchor="middle" font-family="Roboto, Helvetica, Arial, sans-serif"
+        font-weight="700" font-size="26" fill="#001a40">Atividades Sensoriais</text>
 </svg>

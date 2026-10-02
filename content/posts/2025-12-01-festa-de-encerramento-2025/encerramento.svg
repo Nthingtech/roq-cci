@@ -1,10 +1,72 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="t">
-  <title id="t">Ilustração placeholder: festa de encerramento</title>
+  <title id="t">Ilustração: mesa de festa com bolo, bandeirinhas e balões</title>
   <rect width="640" height="360" fill="#edf0ff"/>
-  <path d="M180 260 L460 260 L430 140 L210 140 Z" fill="#7eabff"/>
-  <circle cx="220" cy="100" r="10" fill="#005cbd"/>
-  <circle cx="320" cy="80" r="10" fill="#0050a7"/>
-  <circle cx="420" cy="100" r="10" fill="#005cbd"/>
-  <text x="320" y="320" text-anchor="middle" font-family="Roboto, Helvetica, Arial, sans-serif"
+
+  <!-- bandeirinhas -->
+  <path d="M0,30 Q320,110 640,30" fill="none" stroke="#0050a7" stroke-width="2.5"/>
+  <polygon points="44,44 76,44 60,74" fill="#005cbd"/>
+  <polygon points="109,55 141,55 125,85" fill="#ffc93c"/>
+  <polygon points="174,63 206,63 190,93" fill="#7eabff"/>
+  <polygon points="239,68 271,68 255,98" fill="#005cbd"/>
+  <polygon points="304,70 336,70 320,100" fill="#ffc93c"/>
+  <polygon points="369,68 401,68 385,98" fill="#7eabff"/>
+  <polygon points="434,63 466,63 450,93" fill="#005cbd"/>
+  <polygon points="499,55 531,55 515,85" fill="#ffc93c"/>
+  <polygon points="564,44 596,44 580,74" fill="#7eabff"/>
+
+  <!-- balões -->
+  <path d="M80,198 C70,225 92,250 82,290" fill="none" stroke="#0050a7" stroke-width="2"/>
+  <ellipse cx="80" cy="160" rx="30" ry="36" fill="#005cbd"/>
+  <polygon points="75,195 85,195 80,202" fill="#005cbd"/>
+  <ellipse cx="68" cy="146" rx="7" ry="11" fill="#ffffff" opacity="0.4" transform="rotate(20 68 146)"/>
+
+  <path d="M562,206 C572,232 552,256 562,290" fill="none" stroke="#0050a7" stroke-width="2"/>
+  <ellipse cx="562" cy="168" rx="30" ry="36" fill="#ffc93c"/>
+  <polygon points="557,203 567,203 562,210" fill="#ffc93c"/>
+  <ellipse cx="550" cy="154" rx="7" ry="11" fill="#ffffff" opacity="0.5" transform="rotate(20 550 154)"/>
+
+  <!-- mesa -->
+  <rect x="140" y="270" width="12" height="28" fill="#0050a7"/>
+  <rect x="488" y="270" width="12" height="28" fill="#0050a7"/>
+  <rect x="124" y="228" width="392" height="46" rx="6" fill="#ffffff" stroke="#acc7ff" stroke-width="3"/>
+  <g fill="#7eabff">
+    <circle cx="160" cy="254" r="4"/><circle cx="200" cy="254" r="4"/><circle cx="240" cy="254" r="4"/>
+    <circle cx="280" cy="254" r="4"/><circle cx="320" cy="254" r="4"/><circle cx="360" cy="254" r="4"/>
+    <circle cx="400" cy="254" r="4"/><circle cx="440" cy="254" r="4"/><circle cx="480" cy="254" r="4"/>
+  </g>
+
+  <!-- pratos -->
+  <ellipse cx="188" cy="224" rx="40" ry="8" fill="#ffffff" stroke="#acc7ff" stroke-width="3"/>
+  <ellipse cx="178" cy="218" rx="12" ry="7" fill="#ffc93c"/>
+  <ellipse cx="198" cy="219" rx="10" ry="6" fill="#4caf7a"/>
+
+  <!-- bolo -->
+  <rect x="276" y="176" width="88" height="52" rx="6" fill="#ffc93c"/>
+  <rect x="276" y="202" width="88" height="6" fill="#ffffff" opacity="0.7"/>
+  <path d="M276,186 V180 a6,6 0 0 1 6,-6 H358 a6,6 0 0 1 6,6 V186 C356,186 356,196 348,196 C340,196 340,186 332,186 C324,186 324,198 316,198 C308,198 308,186 300,186 C292,186 292,194 284,194 C278,194 276,190 276,186 Z" fill="#ffffff"/>
+  <rect x="316" y="150" width="8" height="24" rx="2" fill="#005cbd"/>
+  <path d="M320,134 C326,142 326,148 320,150 C314,148 314,142 320,134 Z" fill="#ff8a3d"/>
+
+  <!-- copos -->
+  <g transform="translate(430,184)">
+    <polygon points="0,0 30,0 26,42 4,42" fill="#7eabff"/>
+    <line x1="20" y1="4" x2="32" y2="-20" stroke="#005cbd" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(468,192)">
+    <polygon points="0,0 26,0 23,34 3,34" fill="#005cbd"/>
+  </g>
+
+  <!-- confete -->
+  <g>
+    <rect x="160" y="130" width="8" height="4" fill="#ffc93c" transform="rotate(30 164 132)"/>
+    <rect x="236" y="150" width="8" height="4" fill="#005cbd" transform="rotate(-20 240 152)"/>
+    <rect x="400" y="140" width="8" height="4" fill="#7eabff" transform="rotate(45 404 142)"/>
+    <rect x="470" y="120" width="8" height="4" fill="#ffc93c" transform="rotate(-35 474 122)"/>
+    <circle cx="210" cy="112" r="3" fill="#7eabff"/>
+    <circle cx="430" cy="110" r="3" fill="#005cbd"/>
+    <circle cx="372" cy="128" r="3" fill="#ffc93c"/>
+  </g>
+
+  <text x="320" y="330" text-anchor="middle" font-family="Roboto, Helvetica, Arial, sans-serif"
         font-weight="700" font-size="26" fill="#001a40">Festa de Encerramento</text>
 </svg>

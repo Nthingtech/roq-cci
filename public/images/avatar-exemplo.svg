@@ -1,6 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" role="img" aria-labelledby="avatar-title">
-  <title id="avatar-title">Avatar placeholder genérico</title>
-  <circle cx="100" cy="100" r="100" fill="#edf0ff"/>
-  <circle cx="100" cy="82" r="34" fill="#005cbd"/>
-  <path d="M40 172c6-38 40-58 60-58s54 20 60 58c-16 16-40 26-60 26s-44-10-60-26z" fill="#005cbd"/>
+  <title id="avatar-title">Avatar ilustrado de perfil fictício</title>
+  <defs>
+    <clipPath id="avatar-clip"><circle cx="100" cy="100" r="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#avatar-clip)">
+    <rect width="200" height="200" fill="#edf0ff"/>
+    <!-- corpo -->
+    <path d="M30,200 C34,152 66,132 100,132 C134,132 166,152 170,200 Z" fill="#005cbd"/>
+    <rect x="90" y="116" width="20" height="22" fill="#f2c6a0"/>
+    <path d="M86,134 L100,152 L114,134 Z" fill="#ffffff"/>
+    <!-- orelhas e brincos -->
+    <circle cx="64" cy="94" r="7" fill="#f2c6a0"/>
+    <circle cx="136" cy="94" r="7" fill="#f2c6a0"/>
+    <circle cx="64" cy="104" r="3.5" fill="#ffc93c"/>
+    <circle cx="136" cy="104" r="3.5" fill="#ffc93c"/>
+    <!-- rosto -->
+    <circle cx="100" cy="90" r="36" fill="#f2c6a0"/>
+    <!-- cabelo -->
+    <circle cx="100" cy="42" r="16" fill="#3b2a20"/>
+    <path d="M63,94 C60,62 78,50 100,50 C122,50 140,62 137,94 C132,76 118,66 100,66 C82,66 68,76 63,94 Z" fill="#3b2a20"/>
+    <!-- feições -->
+    <circle cx="87" cy="92" r="3.5" fill="#2b2b2b"/>
+    <circle cx="113" cy="92" r="3.5" fill="#2b2b2b"/>
+    <circle cx="80" cy="103" r="6" fill="#ff9a9a" opacity="0.5"/>
+    <circle cx="120" cy="103" r="6" fill="#ff9a9a" opacity="0.5"/>
+    <path d="M88,106 Q100,116 112,106" fill="none" stroke="#7a3b2e" stroke-width="3" stroke-linecap="round"/>
+  </g>
 </svg>
